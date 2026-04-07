@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 // Route 1: Home
 app.get('/', (req, res) => {
-    res.json({ message: 'Hello from CI/CD Lab! -v2', status: 'ok' });
+    res.json({ message: 'Hello from CI/CD Lab -v2!', status: 'ok' });
 });
 // Route 2: Health check
 app.get('/health', (req, res) => {
